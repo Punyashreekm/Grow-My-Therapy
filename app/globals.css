@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm White Background */
+    --background: 40 20% 98%;
+    /* Dark Charcoal Foreground */
+    --foreground: 210 10% 23%;
+
+    /* Card: White or slightly off-white */
+    --card: 0 0% 100%;
+    --card-foreground: 210 10% 23%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 10% 23%;
+
+    /* Primary: Deep Sage */
+    --primary: 140 25% 35%;
+    --primary-foreground: 40 20% 98%;
+
+    /* Secondary: Light Sage/Beige */
+    --secondary: 80 15% 85%;
+    --secondary-foreground: 140 25% 35%;
+
+    /* Muted: Light Greenish Grey */
+    --muted: 140 10% 94%;
+    --muted-foreground: 210 5% 45%;
+
+    /* Accent: Muted Clay/Terracotta */
+    --accent: 20 40% 60%;
+    --accent-foreground: 40 20% 98%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 140 10% 90%;
+    --input: 140 10% 90%;
+    --ring: 140 25% 35%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.arched-image {
+  border-radius: 200px 200px 0 0;
+  overflow: hidden;
+}
+
+.circle-image {
+  border-radius: 50%;
+  overflow: hidden;
+}
