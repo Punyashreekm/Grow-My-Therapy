@@ -61,3 +61,9 @@ This project is a two-stage frontend development and design assignment for Grow 
 - **Copywriting (20%)**: SEO-optimized content based on the provided therapist profile.
 - **Communication (20%)**: Professional client-facing documentation.
 - **Creativity (10%)**: Implementation of a custom, context-aware "Our Office" section.
+
+## 🏆 Project Insights
+
+**Biggest Win:** Successfully translating the "Dr. Maya Reynolds" profile into a cohesive "Grounded Sanctuary" visual brand identity with custom AI imagery and a tailored "Our Office" section.
+
+**Challenges / Known Gaps:** Balancing the custom aspect-ratio requirements for the new responsive image grid in the "Our Office" section took precise tuning to ensure perfect mobile display.
